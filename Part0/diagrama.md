@@ -1,8 +1,8 @@
 sequenceDiagram
-participant Usuario
-participant Navegador
-participant Servidor
-participant BaseDeDatos
+    participant Usuario
+    participant Navegador
+    participant Servidor
+    participant BaseDeDatos
 
     Usuario->>Navegador: Usuario escribe una nota y hace clic en Save
     Navegador->>Servidor: POST /nueva nota (envía la nota)
